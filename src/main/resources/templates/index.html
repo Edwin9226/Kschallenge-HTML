@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+   <title th:text=${Obra_de_DaVinci}>Obra de Davinci</title>
+   <link th:href="@{/css/index.css}" rel="stylesheet" />
+</head>
+<body>
+<h1> Da Vinci Artwork</h1>
+<div class="img">
+<img class="izquierda" alt="monalisa" th:src="@{/images/mona-lisa.jpg}" >
+<aside class="abajo">El Salvator Mundi fue pintado para el rey Luis XII de Francia.</aside>
+</div>
+
+<div class="img">
+<img class="izquierda" alt="salvatormundi" th:src="@{/images/salvator-mundi.jpg}">
+<aside class="abajo">La Mona Lisa es un retrato de medio cuerpo del artista italiano
+Leonardo da Vinci.</aside>	
+
+</div>
+
+
+</body> 
+</html>
